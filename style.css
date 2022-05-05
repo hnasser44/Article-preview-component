@@ -67,8 +67,9 @@ img {
      margin-right: -15em;
 }
 
-.profile h3 {
+.profile h2 {
      color: var(--VeryDarkGrayishBlue);
+     font-size: 1.2em;
 }
 
 span {
