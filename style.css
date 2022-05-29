@@ -160,6 +160,7 @@ span {
 }
 
 
+
 @media (min-width: 700px) {
      body {
           display: flex;
@@ -205,5 +206,42 @@ span {
       .div2 {
            margin-left: 4em;
       }
-      
+}
+
+@media screen and (max-width: 400px) {
+     h1 {
+           font-size: 1.3em !important;
+     }
+     p {
+          font-size: 1em !important;
+     }
+     h2, span {
+          font-size: 10px !important;
+          margin-left: 4em !important;
+     }
+     .ava-img {
+           width: 25% !important;
+     }
+     .profile h2 {
+          position: relative;
+          left: 15px;
+     }
+     span {
+         position: relative;
+         right: 40px;
+     }
+     .hidden-share h4 {
+          font-size: 15px;
+     }
+     .fb-icon,.tw-icon,.pin-icon {
+          margin: -5px;
+     }
+     .hidden-share img {
+          width: 100%;
+
+     }
+     .pin-icon {
+          margin-right: 1.5em;
+     }
+
 }
